@@ -1,1 +1,1 @@
-# Ethereum
+# Sample Solidity contracts and UseCases.
