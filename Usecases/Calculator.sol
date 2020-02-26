@@ -1,4 +1,4 @@
-pragma solidity ^0.4.25;
+pragma solidity >=0.5.0 <0.6.0;
 
 contract Calculator {
 
@@ -9,7 +9,7 @@ contract Calculator {
   event NumberMultiplied(uint n);
   event NumberDivided(uint n);
 
-  constructor(uint num) public {
+  Calculator(uint num) public {
     // constructor
     result=num;
   }
